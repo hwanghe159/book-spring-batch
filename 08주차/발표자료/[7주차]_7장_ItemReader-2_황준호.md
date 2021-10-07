@@ -392,7 +392,7 @@
 @Component
 public class CustomerService {
   public Customer getCustomer() {
-    //호출될때마다 Customer을 반환, 다 소진되면 null 반환홤
+    //호출될때마다 Customer을 반환, 다 소진되면 null 반환함
   }
 }
 ```
@@ -568,3 +568,4 @@ public CustomerItemReader customerItemReader() {
     }
   }
   ```
+
